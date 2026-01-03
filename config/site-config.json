@@ -1,0 +1,30 @@
+{
+  "site": {
+    "name": "日本不動產投資顧問",
+    "title": "找到您理想的日本不動產",
+    "description": "專業的日本房地產投資服務，為您提供最優質的不動產選擇",
+    "logo": "images/logo.png",
+    "favicon": "images/favicon.ico"
+  },
+  "contact": {
+    "lineId": "@arice9222138",
+    "lineUrl": "https://line.me/ti/p/@japanproperty",
+    "phone": "0916700863",
+    "email": "arice9222138@gmail.com",
+    "address": "東京都港區六本木1-1-1"
+  },
+  "colors": {
+    "primary": "#1e3a8a",
+    "secondary": "#333333",
+    "accent": "#DAA520",
+    "text": "#333333",
+    "textLight": "#6b6b6b",
+    "background": "#FFFFFF",
+    "white": "#FFFFFF"
+  },
+  "cta": {
+    "mainText": "免費諮詢日本不動產",
+    "lineText": "加入 Line 聯絡業務",
+    "consultText": "立即諮詢"
+  }
+}

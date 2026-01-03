@@ -1,0 +1,76 @@
+{
+  "properties": [
+    {
+      "id": "prop-001",
+      "title": "東京澀谷區精裝公寓",
+      "price": "3,800萬日圓",
+      "priceValue": 38000000,
+      "location": "東京都澀谷區",
+      "type": "公寓",
+      "area": "25坪",
+      "rooms": "1LDK",
+      "year": "2018年",
+      "image": "images/property-1.jpg",
+      "images": [
+        "images/property-1.jpg"
+      ],
+      "description": "位於澀谷區的精裝公寓，交通便利，生活機能完善。",
+      "features": [
+        "距離車站步行5分鐘",
+        "全新裝潢",
+        "附家具家電",
+        "可立即入住"
+      ],
+      "transport": "JR山手線 澀谷站 步行5分鐘",
+      "status": "available"
+    },
+    {
+      "id": "prop-002",
+      "title": "大阪心齋橋商辦大樓",
+      "price": "8,500萬日圓",
+      "priceValue": 85000000,
+      "location": "大阪府大阪市",
+      "type": "商辦",
+      "area": "45坪",
+      "rooms": "辦公室",
+      "year": "2015年",
+      "image": "images/property-2.jpg",
+      "images": [
+        "images/property-2.jpg"
+      ],
+      "description": "位於心齋橋商圈的精華地段，適合投資出租。",
+      "features": [
+        "黃金地段",
+        "穩定租金收益",
+        "管理完善",
+        "投資報酬率高"
+      ],
+      "transport": "地下鐵御堂筋線 心齋橋站 步行3分鐘",
+      "status": "available"
+    },
+    {
+      "id": "prop-003",
+      "title": "京都清水寺附近獨棟住宅",
+      "price": "5,200萬日圓",
+      "priceValue": 52000000,
+      "location": "京都府京都市",
+      "type": "獨棟",
+      "area": "60坪",
+      "rooms": "3LDK",
+      "year": "2020年",
+      "image": "images/property-3.jpg",
+      "images": [
+        "images/property-3.jpg"
+      ],
+      "description": "傳統日式風格獨棟住宅，鄰近清水寺，環境清幽。",
+      "features": [
+        "傳統日式建築",
+        "庭院寬敞",
+        "觀光區優勢",
+        "適合民宿經營"
+      ],
+      "transport": "京阪本線 清水五条站 步行10分鐘",
+      "status": "available"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常見問題 - 日本不動產投資顧問</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .faq-category {
+            margin-bottom: 3rem;
+        }
+        .faq-category h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-color);
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-color);
+        }
+        .faq-item {
+            background: var(--white);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--text-color);
+            transition: background 0.3s;
+        }
+        .faq-question:hover {
+            background: var(--bg-color);
+        }
+        .faq-toggle {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            padding: 0 1.5rem;
+        }
+        .faq-item.active .faq-answer {
+            padding: 1.5rem;
+        }
+        .faq-answer p {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <!-- 導航列 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">日本不動產</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="properties.html">物件列表</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="services.html">服務流程</a></li>
+                <li><a href="faq.html">常見問題</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- 頁面標題 -->
+    <section class="hero" style="padding: 3rem 0;">
+        <div class="container">
+            <h1 class="section-title">常見問題</h1>
+            <p class="section-subtitle">為您解答日本不動產投資的常見疑問</p>
+        </div>
+    </section>
+
+    <!-- FAQ 內容 -->
+    <section class="section">
+        <div class="container">
+            <div id="faq-list">
+                <!-- 由 JavaScript 動態載入 -->
+            </div>
+
+            <div class="text-center mt-3">
+                <p style="margin-bottom: 1rem; color: var(--text-light);">仍有疑問？</p>
+                <a href="#" class="btn btn-primary btn-large btn-line">加入 Line 獲得專業解答</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>關於我們</h3>
+                    <a href="about.html">關於我們</a>
+                    <a href="services.html">服務流程</a>
+                    <a href="faq.html">常見問題</a>
+                </div>
+                <div class="footer-section">
+                    <h3>物件資訊</h3>
+                    <a href="properties.html">物件列表</a>
+                    <a href="properties.html?type=apartment">公寓</a>
+                    <a href="properties.html?type=office">商辦</a>
+                </div>
+                <div class="footer-section">
+                    <h3>聯絡我們</h3>
+                    <a href="contact.html">聯絡方式</a>
+                    <a href="#" class="btn-line">加入 Line</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 日本不動產投資顧問. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+{
+  "properties": [
+    {
+      "id": "prop-範例",
+      "title": "【範例】東京澀谷區精裝公寓",
+      "price": "3,800萬日圓",
+      "priceValue": 38000000,
+      "location": "東京都澀谷區",
+      "type": "公寓",
+      "area": "25坪",
+      "rooms": "1LDK",
+      "year": "2018年",
+      "image": "images/property-範例.jpg",
+      "images": [
+        "images/property-範例.jpg",
+        "images/property-範例-2.jpg",
+        "images/property-範例-3.jpg"
+      ],
+      "description": "這是物件描述，可以寫入物件的特色、周邊環境、投資價值等資訊。建議寫 50-100 字左右。",
+      "features": [
+        "距離車站步行5分鐘",
+        "全新裝潢",
+        "附家具家電",
+        "可立即入住",
+        "管理完善",
+        "投資報酬率高"
+      ],
+      "transport": "JR山手線 澀谷站 步行5分鐘\n東京metro銀座線 澀谷站 步行3分鐘",
+      "status": "available"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
