@@ -122,12 +122,6 @@
                     <p id="contact-phone">載入中...</p>
                     <a href="tel:+819012345678" class="btn btn-outline">撥打電話</a>
                 </div>
-                <div class="contact-method">
-                    <div class="contact-method-icon">✉️</div>
-                    <h3>Email</h3>
-                    <p id="contact-email">載入中...</p>
-                    <a href="mailto:info@japanproperty.com" class="btn btn-outline">發送郵件</a>
-                </div>
             </div>
 
             <!-- Line QR Code -->
@@ -139,17 +133,13 @@
                 <a href="#" class="btn btn-primary btn-large btn-line">加入 Line 聯絡業務</a>
             </div>
 
-            <!-- 聯絡表單（可選） -->
+            <!-- 聯絡表單 -->
             <div class="contact-form">
                 <h2 style="margin-bottom: 1.5rem;">線上諮詢表單</h2>
                 <form id="contact-form" onsubmit="handleFormSubmit(event)">
                     <div class="form-group">
                         <label for="name">姓名 *</label>
                         <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
                         <label for="phone">電話</label>
@@ -207,9 +197,7 @@
                 const config = await response.json();
                 if (config.contact) {
                     const phoneEl = document.getElementById('contact-phone');
-                    const emailEl = document.getElementById('contact-email');
                     if (phoneEl) phoneEl.textContent = config.contact.phone;
-                    if (emailEl) emailEl.textContent = config.contact.email;
                 }
             } catch (error) {
                 console.error('載入聯絡資訊失敗:', error);
@@ -229,14 +217,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
